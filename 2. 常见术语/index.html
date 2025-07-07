@@ -1,0 +1,1754 @@
+
+<!doctype html>
+<html lang="zh" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../1.%20%E5%AD%A6%E6%9C%AF%E8%AF%9A%E4%BF%A1/">
+      
+      
+        <link rel="next" href="../3.%20%E7%AB%9E%E8%B5%9B%E6%A6%82%E5%BF%B5/3.1.%20%E8%B5%9B%E5%88%B6/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.15">
+    
+    
+      
+        <title>2. 常见术语 - 【打破信息差】萌新认识与入门算法竞赛</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.342714a4.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#2" class="md-skip">
+          跳转至
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="页眉">
+    <a href=".." title="【打破信息差】萌新认识与入门算法竞赛" class="md-header__button md-logo" aria-label="【打破信息差】萌新认识与入门算法竞赛" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            【打破信息差】萌新认识与入门算法竞赛
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              2. 常见术语
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14.3 16-.7-2h-3.2l-.7 2H7.8L11 7h2l3.2 9zM20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12zm-9.15 3.96h2.3L12 9z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: light)" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="(prefers-color-scheme: dark)" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to system preference"  type="radio" name="__palette" id="__palette_2">
+    
+      <label class="md-header__button md-icon" title="Switch to system preference" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12s-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12z"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="搜索" placeholder="搜索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="查找">
+        
+        <button type="reset" class="md-search__icon md-icon" title="清空当前内容" aria-label="清空当前内容" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            正在初始化搜索引擎
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="标签" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href=".." class="md-tabs__link">
+        
+  
+  
+    
+  
+  0. 阅前须知
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../1.%20%E5%AD%A6%E6%9C%AF%E8%AF%9A%E4%BF%A1/" class="md-tabs__link">
+        
+  
+  
+    
+  
+  1. 学术诚信
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+    
+  
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="./" class="md-tabs__link">
+        
+  
+  
+    
+  
+  2. 常见术语
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../3.%20%E7%AB%9E%E8%B5%9B%E6%A6%82%E5%BF%B5/3.1.%20%E8%B5%9B%E5%88%B6/" class="md-tabs__link">
+          
+  
+  
+  3. 竞赛概念
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.1.%20XCPC/" class="md-tabs__link">
+          
+  
+  
+  4. 比赛介绍
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.1.%20%E7%BD%91%E7%AB%99%E4%BB%8B%E7%BB%8D/" class="md-tabs__link">
+          
+  
+  
+  5. 关键网站
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.0.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/" class="md-tabs__link">
+          
+  
+  
+  6. 代码工具
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.0.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/" class="md-tabs__link">
+          
+  
+  
+  7. 关于训练
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../8.%20%E7%BB%93%E8%AF%AD%E4%B8%8E%E8%87%B4%E8%B0%A2/8.%20%E7%BB%93%E8%AF%AD%E4%B8%8E%E8%87%B4%E8%B0%A2/" class="md-tabs__link">
+          
+  
+  
+  8. 结语与致谢
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="导航栏" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="【打破信息差】萌新认识与入门算法竞赛" class="md-nav__button md-logo" aria-label="【打破信息差】萌新认识与入门算法竞赛" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    【打破信息差】萌新认识与入门算法竞赛
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    0. 阅前须知
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../1.%20%E5%AD%A6%E6%9C%AF%E8%AF%9A%E4%BF%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    1. 学术诚信
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    2. 常见术语
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    3. 竞赛概念
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            3. 竞赛概念
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20%E7%AB%9E%E8%B5%9B%E6%A6%82%E5%BF%B5/3.1.%20%E8%B5%9B%E5%88%B6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3.1. 赛制
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20%E7%AB%9E%E8%B5%9B%E6%A6%82%E5%BF%B5/3.2.%20%E9%98%9F%E4%BC%8D%E7%B1%BB%E5%9E%8B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3.2. 队伍类型
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../3.%20%E7%AB%9E%E8%B5%9B%E6%A6%82%E5%BF%B5/3.3.%20XCPC%20%E6%AF%94%E8%B5%9B%E7%B1%BB%E5%88%AB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    3.3. XCPC 比赛类别
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    4. 比赛介绍
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            4. 比赛介绍
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.1.%20XCPC/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.1. XCPC
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.2.%20%E5%A4%9A%E6%A0%A1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.2. 多校
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.3.%20%E8%93%9D%E6%A1%A5%E6%9D%AF/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.3. 蓝桥杯
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.4.%20%E5%9B%A2%E4%BD%93%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E5%A4%A9%E6%A2%AF%E8%B5%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.4. 团体程序设计天梯赛
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../4.%20%E6%AF%94%E8%B5%9B%E4%BB%8B%E7%BB%8D/4.5.%20%E7%99%BE%E5%BA%A6%E4%B9%8B%E6%98%9F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    4.5. 百度之星
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    5. 关键网站
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            5. 关键网站
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.1.%20%E7%BD%91%E7%AB%99%E4%BB%8B%E7%BB%8D/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.1. 网站介绍
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.2.%20codeforces/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.2. codeforces
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.3.%20atcoder/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.2. atcoder
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.4.%20%E7%89%9B%E5%AE%A2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.4. 牛客
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.5.%20%E6%B4%9B%E8%B0%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.5. 洛谷
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../5.%20%E5%85%B3%E9%94%AE%E7%BD%91%E7%AB%99/5.6.%20qoj/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    5.6. qoj
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    6. 代码工具
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            6. 代码工具
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.0.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.0. 代码工具
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.1.%20%E5%B0%8F%E7%86%8A%E7%8C%ABC%2B%2B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.1. 小熊猫C++
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.2.%20Dev%20C%2B%2B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.2. Dev C++
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.3.%20VSCode/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.3. VSCode
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.4.%20Sublime%20Text4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.4. Sublime Text4
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.5.%20Clion/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.5. Clion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.6.%20Markdown/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.6. Markdown
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../6.%20%E4%BB%A3%E7%A0%81%E5%B7%A5%E5%85%B7/6.7.%20LaTex/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    6.7. LaTex
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    7. 关于训练
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            7. 关于训练
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.0.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.0. 关于训练
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.1.%20%E8%AF%AD%E6%B3%95%E5%85%A5%E9%97%A8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.1. 语法入门
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.2.%20%E5%88%B7%E9%A2%98/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.2. 刷题
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.3.%20%E5%AD%A6%E4%B9%A0%E7%AE%97%E6%B3%95/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.3. 学习算法
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.4.%20%E8%AF%B7%E6%95%99%E9%97%AE%E9%A2%98/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.4. 请教问题
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.5.%20%E6%8E%A8%E8%8D%90%E6%AF%94%E8%B5%9B/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.5. 推荐比赛
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.6.%20%E7%AE%97%E6%B3%95%E8%B7%AF%E7%BA%BF%E4%B8%8E%E7%AE%97%E6%B3%95%E6%A0%91/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.6. 算法路线与算法树
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.7.%20%E5%AD%A6%E4%BC%9A%E4%BA%A4%E9%99%85/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.7. 学会交际
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../7.%20%E5%85%B3%E4%BA%8E%E8%AE%AD%E7%BB%83/7.8.%20%E5%B0%8A%E9%87%8D%E4%BB%96%E4%BA%BA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    7.8. 尊重他人
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    8. 结语与致谢
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            8. 结语与致谢
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../8.%20%E7%BB%93%E8%AF%AD%E4%B8%8E%E8%87%B4%E8%B0%A2/8.%20%E7%BB%93%E8%AF%AD%E4%B8%8E%E8%87%B4%E8%B0%A2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    8. 结语与致谢
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="目录">
+  
+  
+  
+    
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="2">2. 常见术语</h1>
+<table>
+<thead>
+<tr>
+<th>缩写</th>
+<th>全称（中文）</th>
+<th>简要说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>ACM</strong></td>
+<td>Association for Computing Machinery（美国计算机协会）</td>
+<td>国际计算机领域最悠久的专业组织之一。早期 ICPC 以“ACM‑ICPC”冠名，因此“ACM”在华语社区常作为 ICPC 的口语简称。2018 年起 ICPC 独立运营，但“ACM”一词仍沿用。</td>
+</tr>
+<tr>
+<td><strong>ICPC</strong></td>
+<td>International Collegiate Programming Contest（国际大学生程序设计竞赛）</td>
+<td>面向在校本科生/研究生的团队式编程竞赛，被视为大学阶段最高级别赛事。区域赛（Regional）、全球总决赛（World Finals）两级赛制，三人一队，共用一台电脑，五小时内解题。</td>
+</tr>
+<tr>
+<td><strong>CCPC</strong></td>
+<td>China Collegiate Programming Contest（中国大学生程序设计竞赛）</td>
+<td>由中国高校计算机教育研究会主办的年度性大学生程序设计竞赛。旨在提高中国大学生的程序设计能力和计算机应用水平，是国内规模最大、影响力最广的大学生程序设计赛事之一。其赛事组织形式与ACM/ICPC相似。</td>
+</tr>
+<tr>
+<td><strong>CF</strong></td>
+<td><strong>Codeforces</strong></td>
+<td>俄罗斯团队运营的在线评测与竞赛平台，以“Rating”体系闻名。常见赛事有 Round、Div.&frac12;/3、Educational Round 等，赛后可即时看到排名与官方题解。</td>
+</tr>
+<tr>
+<td><strong>AC / WA / TLE …</strong></td>
+<td>Accepted / Wrong Answer / Time Limit Exceeded 等判题结果</td>
+<td>在线评测返回的常见状态码：AC 表示通过全部测试点；WA 输出错误；TLE 超时；MLE 超内存；RE 运行期错误；CE 编译错误等。</td>
+</tr>
+<tr>
+<td><strong>OJ</strong></td>
+<td>Online Judge（在线评测系统）</td>
+<td>一种自动化系统，用于接收、编译、运行参赛者提交的程序代码，并根据预设的测试数据和评测标准（如正确性、运行时间、内存占用）给出评测结果。它是算法竞赛的核心平台。</td>
+</tr>
+<tr>
+<td><strong>IOI</strong></td>
+<td>International Olympiad in Informatics（国际信息学奥林匹克）</td>
+<td>面向全球中学生的信息学竞赛，旨在发掘、鼓励和表彰世界各地在信息学方面有才能的青少年。通常侧重于算法设计、数据结构和数学思维。</td>
+</tr>
+<tr>
+<td><strong>NOI</strong></td>
+<td>National Olympiad in Informatics（中国全国青少年信息学奥林匹克竞赛）</td>
+<td>中国国内最高水平的青少年信息学竞赛。由中国计算机学会 (CCF) 主办，旨在选拔和培养优秀的计算机人才，并组建中国国家队参加IOI。</td>
+</tr>
+<tr>
+<td><strong>IDE</strong></td>
+<td>Integrated Development Environment（集成开发环境）</td>
+<td>软件开发中用于提供程序开发环境的应用程序。它通常包括源代码编辑器、编译器/解释器、调试器和构建自动化工具。在算法竞赛中，选手可以使用IDE编写、调试和测试代码。</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>黑话</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ap</td>
+<td>a批，泛指打算法竞赛的选手。</td>
+</tr>
+<tr>
+<td>xcpc</td>
+<td>icpc和ccpc的统称。</td>
+</tr>
+<tr>
+<td>封榜</td>
+<td>一些赛事会在比赛结束前一个小时封榜，即榜单会停滞在结束前一个小时的状态。</td>
+</tr>
+<tr>
+<td>滚榜</td>
+<td>因为封榜的存在所以大家无法直接得知最终排名，会在比赛结束后开滚榜环节，从后到前依次公布最终排名。</td>
+</tr>
+<tr>
+<td>vp</td>
+<td>virtual participation，打一场在之前已经举办过的比赛。</td>
+</tr>
+<tr>
+<td>对拍</td>
+<td>一种程序，很多时候不确定自己写的符合时空复杂度的代码是否正确，但是可以写出来一个复杂度爆炸但是绝对正确的暴力代码，对拍程序可以实现生成若干随机数据，然后比较两个程序在随机数据下是否输出答案一致，常见于oi类比赛。</td>
+</tr>
+<tr>
+<td>hack</td>
+<td>有时候虽然写了错误代码，但是侥幸通过了所有测试点，但是其他选手可以自己造数据来让你的代码无法通过题目，同时也是cf的特性之一。</td>
+</tr>
+<tr>
+<td>fst</td>
+<td>failed system testing，cf的大多数比赛在赛时只评测一小部分的测试点，在赛后会统一评测所有的测试点，所以会有赛时通过了题目赛后发现其实没过的情况，这就称为fst。</td>
+</tr>
+<tr>
+<td>spj</td>
+<td>special judge，题目的评测方式，例如有些题目必须输出 <code>YES</code> 才能判断为正确，而对于spj无论 <code>YES</code> <code>yes</code> <code>yEs</code> 等都可以判断为正确，如果题目是spj的话一般会在题目的输出格式中说明。</td>
+</tr>
+<tr>
+<td>ak</td>
+<td>表示这场比赛的所有题目全部拿到满分。</td>
+</tr>
+<tr>
+<td>rp++</td>
+<td>人品加一，用于表示祝福。</td>
+</tr>
+<tr>
+<td>bx</td>
+<td>拜谢 的简写。</td>
+</tr>
+<tr>
+<td>orz/or2</td>
+<td>orz看起来像一个人认输跪倒在地，or2的屁股更翘。</td>
+</tr>
+<tr>
+<td>tql</td>
+<td>太强了 的简写。</td>
+</tr>
+<tr>
+<td>%/膜</td>
+<td>膜拜 的简写。</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  回到页面顶部
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "..", "features": ["navigation.top", "navigation.tabs", "navigation.tabs.sticky", "content.code.copy"], "search": "../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "\u5df2\u590d\u5236", "clipboard.copy": "\u590d\u5236", "search.result.more.one": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.more.other": "\u5728\u8be5\u9875\u4e0a\u8fd8\u6709 # \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.none": "\u6ca1\u6709\u627e\u5230\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.one": "\u627e\u5230 1 \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.other": "# \u4e2a\u7b26\u5408\u6761\u4ef6\u7684\u7ed3\u679c", "search.result.placeholder": "\u952e\u5165\u4ee5\u5f00\u59cb\u641c\u7d22", "search.result.term.missing": "\u7f3a\u5c11", "select.version": "\u9009\u62e9\u5f53\u524d\u7248\u672c"}, "version": null}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.56ea9cef.min.js"></script>
+      
+        <script src="../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
